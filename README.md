@@ -29,7 +29,7 @@ We have a train (8523) and test (5681) data set, the train data set has both inp
 | Outlet_Type  | Whether the outlet is just a grocery store or some sort of supermarket | Linked to 'Store Capacity' hypothesis again.|
 | Item_Outlet_Sales  | Sales of the product in the particular store. This is the outcome variable to be predicted. | Outcome variable |
 
-Train file:
+* Train file:
 CSV containing the item outlet information with a sales value
 
 Variable Description
@@ -58,7 +58,7 @@ Outlet_Location_Type ---- The type of city in which the store is located
 Item_Outlet_Sales ---- sales of the product in t particular store. This is the outcome variable to be predicted.
 
 
-Test file:
+* Test file:
 CSV containing item outlet combinations for which sales need to be forecasted
 
 Variable Description
@@ -85,7 +85,7 @@ Outlet_Location_Type ---- The type of city in which the store is located
 Outlet_Type ---- whether the outlet is just a grocery store or some sort of supermarket
 
 
-Submission file format:
+* Submission file format:
 
 Variable Description
 Item_Identifier ----- Unique product ID
